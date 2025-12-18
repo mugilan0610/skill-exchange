@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://skill-exchange-backend-lmbm.onrender.com/api",
+  baseURL: "https://skill-exchange-backend-9g9a.onrender.com/api",
 });
 
 instance.interceptors.request.use((config) => {
